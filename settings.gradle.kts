@@ -67,6 +67,7 @@ include(
     "babel",
     "cassandra",
     "core",
+    "celosql",
     "druid",
     "elasticsearch",
     "example:csv",
@@ -139,3 +140,6 @@ property("localAutostyle")?.ifBlank { "../autostyle" }?.let {
     println("Importing project '$it'")
     includeBuild("../autostyle")
 }
+include("celosql")
+include("celosql")
+include("celosql")
